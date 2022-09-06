@@ -20,9 +20,8 @@ function getCss(theme: string, fontSize: string) {
   let background = 'black'
   let foreground = 'white'
   let radial = 'dimgray'
-  !theme ? theme = 'dark' : theme = theme
 
-  if (theme === 'light') {
+  if (theme == 'light') {
     background = 'white'
     foreground = 'black'
     radial = 'lightgray'
