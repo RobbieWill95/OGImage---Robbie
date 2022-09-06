@@ -17,14 +17,14 @@ const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString(
 )
 
 function getCss(theme: string, fontSize: string) {
-  let background = 'white'
-  let foreground = 'black'
-  let radial = 'lightgray'
+  let background = 'black'
+  let foreground = 'white'
+  let radial = 'dimgray'
 
-  if (theme === 'dark') {
-    background = 'black'
-    foreground = 'white'
-    radial = 'dimgray'
+  if (theme === 'light') {
+    background = 'white'
+    foreground = 'black'
+    radial = 'lightgray'
   }
   return `
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
