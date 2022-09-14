@@ -77,6 +77,7 @@ function getCss() {
     font-style: normal;
     margin-top: 0;
     color: #fff;
+    max-width: 80rem
   }
   
   .credit {
