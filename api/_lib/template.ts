@@ -1,12 +1,11 @@
-import marked from 'marked'
-import { sanitizeHtml } from './sanitizer'
-import { ParsedRequest } from './types'
-const twemoji = require('twemoji')
-const twOptions = { folder: 'svg', ext: '.svg' }
-const emojify = (text: string) => twemoji.parse(text, twOptions)
+import marked from "marked";
+import { sanitizeHtml } from "./sanitizer";
+import { ParsedRequest } from "./types";
+const twemoji = require("twemoji");
+const twOptions = { folder: "svg", ext: ".svg" };
+const emojify = (text: string) => twemoji.parse(text, twOptions);
 
 function getCss() {
-
   return `@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap");
   @font-face {
     font-family: "Inter";
@@ -86,11 +85,11 @@ function getCss() {
     font-style: normal;
     margin-top: 3rem;
     color: #fff;
-  }`
+  }`;
 }
 
 export function getHtml(parsedReq: ParsedRequest) {
-  const { text, md} = parsedReq
+  const { text, md } = parsedReq;
   return `<!DOCTYPE html>
 <html>
     <meta charset="utf-8">
@@ -107,14 +106,12 @@ export function getHtml(parsedReq: ParsedRequest) {
             </div>
             <div class="spacer">
             <div class="heading">
-            ${emojify(
-              md ? marked(text) : sanitizeHtml(text)
-            )}
+            ${emojify(md ? marked(text) : sanitizeHtml(text))}
             </div>
               <div class="credit">Blog.Clark.Today/</div>
         </div>
     </body>
 </html>
 
-`
+`;
 }
