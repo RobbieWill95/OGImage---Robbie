@@ -28,6 +28,10 @@ function getCss() {
     white-space: pre-wrap;
     letter-spacing: -5px;
   }
+  .emoji {
+    width: 8rem;
+    height: 8rem;
+  }
   code:before,
   code:after {
     content: "\`";
