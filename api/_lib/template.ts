@@ -29,8 +29,10 @@ function getCss() {
     letter-spacing: -5px;
   }
   .emoji {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   code:before,
   code:after {
