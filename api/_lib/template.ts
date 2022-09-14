@@ -60,8 +60,8 @@ function getCss() {
   }
   .logo {
     margin: 0 75px;
-    width: 15rem;
-    height: 15rem;
+    width: 13rem;
+    height: 13rem;
   }
   .plus {
     color: #bbb;
@@ -74,7 +74,7 @@ function getCss() {
   
   .heading {
     font-family: "Noto Sans SC", "Inter", sans-serif;
-    font-size: 5rem;
+    font-size: 7rem;
     font-style: normal;
     margin-top: 0;
     color: #fff;
