@@ -60,6 +60,8 @@ function getCss() {
   }
   .logo {
     margin: 0 75px;
+    width: 15rem;
+    height: 15rem;
   }
   .plus {
     color: #bbb;
