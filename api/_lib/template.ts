@@ -72,7 +72,7 @@ function getCss() {
   
   .heading {
     font-family: "Noto Sans SC", "Inter", sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     font-style: normal;
     margin-top: 0;
     color: #fff;
