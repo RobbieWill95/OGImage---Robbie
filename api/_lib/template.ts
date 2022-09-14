@@ -81,7 +81,7 @@ function getCss() {
   
   .credit {
       font-family: "Noto Sans SC", "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-style: normal;
     margin-top: 3rem;
     color: #fff;
