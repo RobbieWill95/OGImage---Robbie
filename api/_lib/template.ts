@@ -6,25 +6,7 @@ const twOptions = { folder: "svg", ext: ".svg" };
 const emojify = (text: string) => twemoji.parse(text, twOptions);
 
 function getCss() {
-  return `@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap");
-  @font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    src: url(data:font/woff2;charset=utf-8;base64,bold) format("woff2");
-  }
-  @font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: bold;
-    src: url(data:font/woff2;charset=utf-8;base64,bold) format("woff2");
-  }
-  @font-face {
-    font-family: "Vera";
-    font-style: normal;
-    font-weight: normal;
-    src: url(data:font/woff2;charset=utf-8;base64,mono}) format("woff2");
-  }
+  return `@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
   body {
     background: #000;
     background-image: radial-gradient(
@@ -73,7 +55,7 @@ function getCss() {
   }
   
   .heading {
-    font-family: "Noto Sans SC", "Inter", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     font-size: 7rem;
     font-style: normal;
     margin-top: 0;
@@ -82,7 +64,7 @@ function getCss() {
   }
   
   .credit {
-      font-family: "Noto Sans SC", "Inter", sans-serif;
+      font-family: "Roboto Slab", sans-serif;
     font-size: 1.7rem;
     font-style: normal;
     margin-top: 3rem;
