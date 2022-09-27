@@ -98,7 +98,7 @@ export function getHtml(parsedReq: ParsedRequest) {
             <div class="heading">
             ${emojify(md ? marked(text) : sanitizeHtml(text))}
             </div>
-              <div class="credit">Blog.Clark.Today/</div>
+              <div class="credit">Journal.SelfJourney.xyz/</div>
         </div>
     </body>
 </html>
