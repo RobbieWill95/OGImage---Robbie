@@ -92,7 +92,7 @@ export function getHtml(parsedReq: ParsedRequest) {
         <div>
             <div class="spacer">
             <div class="logo-wrapper">
-              <img src="https://blog.clark.today/me_macbook.png" alt="">
+              <img src="https://gassets.wkmn.app/photo_share/Kazsj26dUoZCtEUQriZqozCU8E72/Jcod7.png" alt="">
             </div>
             <div class="spacer">
             <div class="heading">
